@@ -26,7 +26,7 @@ input {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -81,6 +81,31 @@ input {
 .search-input::placeholder {
   color: #999999;
 }
+
 .search-icon {
   color: #999999;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #14485b;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.navbar .navbar-list {
+  display: flex;
+}
+
+.navbar .navbar-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 19.2px;
+  padding: 11px;
+}
+
+.navbar .navbar-list a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
