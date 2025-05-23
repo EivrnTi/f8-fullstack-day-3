@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Default */
+
+body {
+  font-family: "Bree Serif", serif;
+  color: #333333;
+}
+
+a {
+  color: inherit;
+}
+
+input {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* COMMON */
+
+.header {
+  background-color: #cacaca;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .inner {
+  display: flex;
+  align-items: center;
+  height: 102px;
+}
+
+
+.logo {
+  height: 70px;
+}
+
+.header .nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .nav a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header .nav a:hover {
+  color: #17678a;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  margin-left: 32px;
+  width: 241px;
+  height: 36px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  gap: 7px;
+
+}
+
+.search-input::placeholder {
+  color: #999999;
+}
+.search-icon {
+  color: #999999;
+}
