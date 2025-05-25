@@ -46,12 +46,13 @@ input {
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .header .nav a {
   text-decoration: none;
   font-size: 20px;
+  padding: 15px
 }
 
 .header .nav a:hover {
