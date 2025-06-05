@@ -16,6 +16,11 @@ input {
   color: inherit;
 }
 
+h1,
+h2 {
+  font-family: "Georgia", serif;
+}
+
 h1 a {
   color: #333 !important;
 }
@@ -129,6 +134,7 @@ h1 a:hover {
 
 .navbar .navbar-list a:hover {
   background-color: rgba(255, 255, 255, 0.1);
+  color: #17678a; /* Added color change on hover */
 }
 
 /* CSS content */
@@ -140,6 +146,10 @@ h1 a:hover {
 .content {
   width: 860px;
   /* background: yellow; */
+}
+
+.content p {
+  line-height: 1.5; /* Added line-height for paragraphs */
 }
 
 .sidebar-container {
@@ -255,6 +265,7 @@ h1 a:hover {
   position: relative;
   padding-left: 16px;
   margin-bottom: 4px;
+  margin-top: 8px; /* Added margin-top to list items */
 }
 
 .post-list-item li::before {
@@ -289,6 +300,8 @@ footer.container {
   display: flex;
   justify-content: center;
   gap: 16px;
+  margin-top: 32px; /* Added margin-top to footer */
+  margin-bottom: 32px; /* Added margin-bottom to footer */
 }
 
 footer a {
